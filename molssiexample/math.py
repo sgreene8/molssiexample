@@ -4,6 +4,7 @@ A file for executing math functions
 from typing import Union
 import numpy as np
 
+
 def euler(n=10):
 
     if n < 0:
@@ -23,4 +24,3 @@ def pi(n=10000):
     norms = np.linalg.norm(r_pts, axis=1)
     in_circ = norms < 1
     return 4. * np.mean(in_circ)
-
