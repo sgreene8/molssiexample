@@ -6,12 +6,16 @@
 Welcome to MolSSIExample's documentation!
 =========================================================
 
+This is an introduction to my package. My package can calculate :math:`\pi`
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    getting_started
    api
+   refs
+
 
 
 
